@@ -12,8 +12,4 @@ RecoVerse transforms traditional recommendation pipelines by introducing **Multi
 - 🧠 **Intent-Aware**: Agents jointly infer both explicit and *implicit* user needs based on behavior, preferences, and feedback.
 - 🔄 **Pluggable Workflows**: Easily extend or replace agents for domain-specific customization.
 - 📊 **Hybrid Recommendations**: Supports collaborative filtering, content-based methods, and rule-augmented heuristics.
-<<<<<<< HEAD
 - 🧩 **Explainability**: Provide reasoning traces from agents for every recommendation.
-=======
-- 🧩 **Explainability**: Provide reasoning traces from agents for every recommendation.
->>>>>>> main
