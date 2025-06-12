@@ -190,7 +190,7 @@ if __name__ == "__main__":
 
     recommender = UserBusinessRecommender(
         db_config=db_config,
-        api_key='84f4bd2b-ebeb-46e0-a3b9-6851e75674b7',
+        api_key='',
         embed_model=embed_model
     )
 
