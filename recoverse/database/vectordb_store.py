@@ -55,10 +55,10 @@ def main():
     vector_storage = OceanBaseStorage(
         vector_dim=embed_model.get_output_dim(),
         table_name="business_vector",
-        uri="192.168.1.20:2883",
-        user="lyz",
-        password="123qwe",
-        db_name="Yelp",
+        uri="",
+        user="",
+        password="",
+        db_name="",
         distance="cosine",
     )
 
