@@ -21,12 +21,13 @@ sys.path.append('/home/lyz/Agents/RecoVerse-master')
 from recoverse.workforce.recommend_workforce import UserBusinessMatchingEngine
 
 def main():
+        
     db_config = {
-        'host': ,
-        'port': ,
-        'user': ',
-        'password': ,
-        'database': '
+        'host': '127.0.0.1',
+        'port': 2881,
+        'user': 'lyz',
+        'password': '123qwe',
+        'database': 'Yelp'
     }
 
     proj_content= textwrap.dedent(

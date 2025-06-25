@@ -93,13 +93,12 @@ implicit_need_agent = ChatAgent(
 )
 
 db_config = {
-    'host': ,
-    'port': ,
-    'user': ',
-    'password': ,
-    'database': '
+    'host': '127.0.0.1',
+    'port': 2881,
+    'user': 'lyz',
+    'password': '123qwe',
+    'database': 'Yelp'
 }
-
 
 user_id = "EopuF3BhVXAGJWEje_TJ-g"
 

@@ -16,8 +16,8 @@ from recoverse.tools.bussql_toolkit import BusinessSQLToolkit
 
 def main():
     db_config = {
-        'host': '192.168.1.20',
-        'port': 2883,
+        'host': '127.0.0.1',
+        'port': 2881,
         'user': 'lyz',
         'password': '123qwe',
         'database': 'Yelp'
@@ -27,7 +27,6 @@ def main():
         model_platform=ModelPlatformType.MODELSCOPE,
         model_type='Qwen/Qwen2.5-72B-Instruct',
         model_config_dict = {'temperature': 0.2},
-        api_key='84f4bd2b-ebeb-46e0-a3b9-6851e75674b7'
     )
 
     storage_feature_message = prompt = """

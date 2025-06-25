@@ -6,15 +6,15 @@ from camel.storages.vectordb_storages import (
 )
 from camel.retrievers import VectorRetriever
 
-embed_model = SentenceTransformerEncoder(model_name="")
+embed_model = SentenceTransformerEncoder(model_name="/home/lyz/Rag/models/bge-m3")
 ob_storage = OceanBaseStorage(
     vector_dim=embed_model.get_output_dim(),
-    table_name="",
-    uri="",
-    user=",
-    password="",
-    db_name="",
-    distance="",
+    table_name="business_vector",
+    uri="127.0.0.1:2881",
+    user="lyz",
+    password="123qwe",
+    db_name="Yelp",
+    distance="cosine",
 )
 
 status = ob_storage.status()

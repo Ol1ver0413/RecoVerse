@@ -59,12 +59,13 @@ def get_userid_by_username(db_config, username):
         conn.close()
 
 def main():
+
     db_config = {
-        'host': ,
-        'port': ,
-        'user': ',
-        'password': ,
-        'database': '
+        'host': '127.0.0.1',
+        'port': 2881,
+        'user': 'lyz',
+        'password': '123qwe',
+        'database': 'Yelp'
     }
 
     model = ModelFactory.create(
@@ -140,15 +141,15 @@ def main():
     print(user_id)
     
 
-    embed_model = SentenceTransformerEncoder(model_name="")
+    embed_model = SentenceTransformerEncoder(model_name="/home/lyz/Rag/models/bge-m3")
     ob_storage = OceanBaseStorage(
         vector_dim=embed_model.get_output_dim(),
-        table_name="",
-        uri="",
-        user=",
-        password="",
-        db_name="",
-        distance="",
+        table_name="business_vector",
+        uri="192.168.1.20:2883",
+        user="lyz",
+        password="123qwe",
+        db_name="Yelp",
+        distance="cosine",
     )
 
     vr = VectorRetriever(

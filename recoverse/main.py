@@ -1,12 +1,13 @@
 import sys
 import os
-sys.path.append('')
+sys.path.append('/home/lyz/Agents/RecoVerse-master')
 
 from recoverse.workforce.society import UserBusinessRecommender
 from camel.embeddings import SentenceTransformerEncoder
+from examples import example
 
 if __name__ == "__main__":
-    examples = [
+    examples_demo = [
     ('Looking for a sushi restaurant downtown.', 'Jimmy'),
     ('I need a gym with personal trainers nearby.', 'Monera'),
     ('Can you find a pet store that sells organic food?', 'Elizabeth'),
@@ -25,21 +26,24 @@ if __name__ == "__main__":
     ]
 
     db_config = {
-        'host': ,
-        'port': ,
-        'user': ',
-        'password': ,
-        'database': '
+        'host': '127.0.0.1',
+        'port': 2881,
+        'user': 'lyz',
+        'password': '123qwe',
+        'database': 'Yelp'
     }
 
-    embed_model = SentenceTransformerEncoder(model_name="")
+    embed_model = SentenceTransformerEncoder(model_name="/home/lyz/Rag/models/bge-m3")
 
     recommender = UserBusinessRecommender(
         db_config=db_config,
+        api_key='',
         embed_model=embed_model
     )
+    
+    i = 0
 
-    result = recommender.recommend(username=examples[0][1], query=examples[0][0])
+    result = recommender.recommend(username=examples_demo[i][1], query=examples_demo[i][0])
     print("[推荐结果]：")
     print(result)
 

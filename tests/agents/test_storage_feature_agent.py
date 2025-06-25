@@ -135,11 +135,11 @@ def get_business_reviews(db_config, business_ids):
 business_ids = ['gG8opRMkztK0GKiSWbfVlw', 'K1h9s1n2679DxUM2cuMZXA']
 
 db_config = {
-    'host': ,
-    'port': ,
-    'user': ',
-    'password': ,
-    'database': '
+    'host': '127.0.0.1',
+    'port': 2881,
+    'user': 'lyz',
+    'password': '123qwe',
+    'database': 'Yelp'
 }
 
 results = get_business_reviews(db_config, business_ids)
