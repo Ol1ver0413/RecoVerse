@@ -31,8 +31,9 @@ git clone https://github.com/Ol1ver0413/RecoVerse.git
 cd RecoVerse
 ```
 2. Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 ## ⚙️ Configuration
 Before running the system, ensure your database and embedding model are correctly configured. Update main.py or your own script with the following:
 
