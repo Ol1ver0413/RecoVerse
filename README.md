@@ -34,6 +34,9 @@ cd RecoVerse
 pip install -r requirements.txt
 
 ## ⚙️ Configuration
+Prior to running the system, make sure to import the **datasets** into the database using the following two files:  
+`recoverse\database\sqldb_store.py` and  `recoverse\database\vectordb_store.py`.
+
 Before running the system, ensure your database and embedding model are correctly configured. Update main.py or your own script with the following:
 
 ```python
