@@ -42,6 +42,22 @@ db_config = {
 from recosystem.embedding import SentenceTransformerEncoder
 embed_model = SentenceTransformerEncoder(model_name="/home/lyz/Rag/models/bge-m3")
 ```
+Alternatively, test a single recommendation in an interactive script:
+```python
+from recosystem.core import UserBusinessRecommender
+from recosystem.demo import examples_demo
+
+recommender = UserBusinessRecommender(
+    db_config=db_config,
+    api_key='',  # Optional, for external services if needed
+    embed_model=embed_model
+)
+
+i = 0
+result = recommender.recommend(username=examples_demo[i][1], query=examples_demo[i][0])
+print("[推荐结果]：")
+print(result)
+```
 ## 🧪 Running the System
 
 You can run the main pipeline by executing:
