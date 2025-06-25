@@ -31,8 +31,9 @@ git clone https://github.com/Ol1ver0413/RecoVerse.git
 cd RecoVerse
 ```
 2. Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 ## ⚙️ Configuration
 Prior to running the system, make sure to import the **datasets** into the database using the following two files:  
 `recoverse\database\sqldb_store.py` and  `recoverse\database\vectordb_store.py`.

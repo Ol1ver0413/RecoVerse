@@ -238,11 +238,11 @@ class YelpDataInserter():
 def main():
     # 1. 定义数据库连接配置
     db_config = {
-        'host': '192.168.1.20',
-        'port': 2881,
-        'user': 'lyz',
-        'password': '123qwe',
-        'database': 'Yelp'
+        'host': '',
+        'port': ,
+        'user': '',
+        'password': '',
+        'database': ''
     }
 
     # 2. 创建插入器实例
