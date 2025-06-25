@@ -23,7 +23,7 @@ RecoVerse transforms traditional recommendation pipelines by introducing **Multi
 ```bash
 git clone https://github.com/Ol1ver0413/RecoVerse.git
 cd RecoVerse
-
+```
 2. Install dependencies:
 pip install -r requirements.txt
 
@@ -41,7 +41,7 @@ db_config = {
 
 from recosystem.embedding import SentenceTransformerEncoder
 embed_model = SentenceTransformerEncoder(model_name="/home/lyz/Rag/models/bge-m3")
-
+```
 ## 🧪 Running the System
 
 You can run the main pipeline by executing:
