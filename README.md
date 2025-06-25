@@ -1,6 +1,6 @@
 # RecoVerse 🌌 — A Multi-Agent Recommendation System
 
-**RecoVerse--Recommendation University** is an intelligent, modular, and extensible multi-agent recommendation system built on the Camel framework. By integrating collaborative agents with OceanBase's hybrid transactional and vector database capabilities, it delivers personalized, explainable, and adaptive recommendations across diverse domains.
+**RecoVerse — Recommendation University** is an intelligent, modular, and extensible multi-agent recommendation system built on the Camel framework. By integrating collaborative agents with OceanBase's hybrid transactional and vector database capabilities, it delivers personalized, explainable, and adaptive recommendations across diverse domains.
 
 ## 🚀 Overview
 
