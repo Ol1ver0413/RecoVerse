@@ -70,6 +70,7 @@ You can run the main pipeline by executing:
 
 ```bash
 python main.py
+```
 
 ---
 
