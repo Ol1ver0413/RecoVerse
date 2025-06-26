@@ -18,7 +18,7 @@ RecoVerse transforms traditional recommendation pipelines by introducing **Multi
 
 ### 🧭 System Workflow
 
-![RecoVerse Workflow](https://github.com/Ol1ver0413/RecoVerse/blob/master/pictures/flow_chat.jpg)
+![RecoVerse Workflow](https://github.com/Ol1ver0413/RecoVerse/blob/main/pictures/flow_chat2.png)
 
 ---
 
